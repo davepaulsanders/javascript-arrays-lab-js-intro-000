@@ -24,3 +24,8 @@ function appendKitten(name){
   var kittenstwo = kittens.concat(name)
   return kittenstwo
 }
+
+function prependKitten(name){
+  var kittensthree = kittens.unshift(name)
+  return kittensthree
+}
